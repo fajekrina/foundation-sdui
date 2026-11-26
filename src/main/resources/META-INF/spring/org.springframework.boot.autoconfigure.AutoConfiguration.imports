@@ -1,0 +1,5 @@
+com.fajekrina.sduir.sdui.config.SduiWebConfig
+com.fajekrina.sduir.sdui.config.SduiPersistenceConfig
+com.fajekrina.sduir.sdui.config.SduiAuthoringConfig
+com.fajekrina.sduir.sdui.config.SduiDeliveryConfig
+com.fajekrina.sduir.sdui.config.SduiActionConfig
