@@ -39,6 +39,8 @@ dependencies {
     api("com.fajekrina.sduir:foundation-sdui-contract:$version")
     compileOnly("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.springframework.boot:spring-boot-starter-jdbc")
+    // the server conformance kit: foundation-sdui (src/test reference/) passes it like any channel's service
+    testImplementation(testFixtures("com.fajekrina.sduir:foundation-sdui-contract:$version"))
     testImplementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-jdbc")
     testImplementation("org.flywaydb:flyway-core")
